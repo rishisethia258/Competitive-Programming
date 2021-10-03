@@ -44,6 +44,13 @@ tree_order_statistics_node_update>;
 const ll mod1 =    1000000007;
 const ll mod2 =    998244353;
 const ll infi =    1e18;
+const ld eps  =    1e-9;
+
+ll test_case = 0;
+void google() {
+    test_case++;
+    cout << "Case #" << test_case << ": ";
+}
 
 ll pwr(ll a, ll b) {
     ll res = 1;
@@ -67,9 +74,8 @@ ll modInverse(ll n, ll p = mod1) {
     return modpwr(n, p - 2, p); 
 }
 
-
 void solve() {
-    $2
+    $0
 }
 
 int main() {
