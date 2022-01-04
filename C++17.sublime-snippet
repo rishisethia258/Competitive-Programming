@@ -32,14 +32,14 @@ tree_order_statistics_node_update>;
 #define rall(a)    a.rbegin(),a.rend()
 #define rev(a)     reverse(all(a))
 #define unq(a)     a.erase(std::unique(all(a)),a.end());
-#define fr(i,a,b)  for(ll i=a;i<b;i++)
-#define rf(i,a,b)  for(ll i=a;i>=b;i--)
-#define yes()      cout<<"YES"<<endl
-#define no()       cout<<"NO"<<endl
-#define err()      cout<<"===========\n";
-#define errA(A)    for(auto i:A) cout<<i<<" ";cout<<"\n";
-#define err1(a)    cout<<#a<<" "<<a<<"\n"
-#define err2(a,b)  cout<<#a<<" "<<a<<" "<<#b<<" "<<b<<"\n"
+#define fr(i,a,b)  for(ll i = a ; i < b ; i++)
+#define rf(i,a,b)  for(ll i = a ; i >= b; i--)
+#define yes()      cout << "YES" << endl
+#define no()       cout << "NO" << endl
+#define err()      cout << "===========\n";
+#define errA(A)    for(auto i : A) cout << i << " "; cout << "\n";
+#define err1(a)    cout << #a <<" "<< a << "\n"
+#define err2(a,b)  cout << #a <<" "<< a <<" "<< #b <<" "<< b << "\n"
 
 const ll mod1 =    1000000007;
 const ll mod2 =    998244353;
